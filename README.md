@@ -66,29 +66,6 @@ yarn build
 yarn start
 \`\`\`
 
-## 📁 Project Structure
-
-\`\`\`
-GitFetch/
-├── app/
-│   ├── api/
-│   │   ├── github/[username]/    # GitHub API route
-│   │   └── parse-resume/         # Resume parsing route
-│   ├── layout.tsx                # Root layout
-│   ├── page.tsx                  # Home page
-│   └── globals.css               # Global styles
-├── components/
-│   ├── ResumeUpload.tsx          # Resume upload component
-│   └── GitHubProfile.tsx         # GitHub profile display
-├── public/                       # Static assets
-├── .github/
-│   └── copilot-instructions.md   # Project instructions
-├── next.config.mjs               # Next.js configuration
-├── tailwind.config.ts            # Tailwind configuration
-├── tsconfig.json                 # TypeScript configuration
-└── package.json                  # Dependencies
-\`\`\`
-
 ## 🎯 How It Works
 
 1. **Upload Resume**: User uploads a resume file or pastes resume text
