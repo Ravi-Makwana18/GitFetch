@@ -106,44 +106,6 @@ GITHUB_TOKEN=your_personal_access_token
 - **Animations**: Update animation classes in `tailwind.config.ts`
 - **Layout**: Edit components in `/components` directory
 
-## 🌐 Deployment on Vercel
-
-### Deploy with One Click
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ravi-Makwana18/gitfetch)
-
-### Manual Deployment
-
-1. Push your code to GitHub
-2. Import your repository in [Vercel](https://vercel.com)
-3. Vercel will automatically detect Next.js and deploy
-4. Your app will be live at `https://your-project.vercel.app`
-
-### Environment Variables (Optional)
-
-If using GitHub token, add it in Vercel:
-- Go to Project Settings → Environment Variables
-- Add `GITHUB_TOKEN` with your token value
-
-## 📝 API Routes
-
-### POST /api/parse-resume
-
-Parses resume text to extract GitHub username.
-
-**Request Body**:
-\`\`\`json
-{
-  "text": "Resume content with GitHub profile..."
-}
-\`\`\`
-
-**Response**:
-\`\`\`json
-{
-  "username": "github-username"
-}
-\`\`\`
 
 ### GET /api/github/[username]
 
@@ -172,16 +134,6 @@ Fetches GitHub profile and repositories.
 - **Loading States**: Skeleton screens and spinners
 - **Error Handling**: User-friendly error messages
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 👤 Author
 
 Your Name
@@ -195,9 +147,5 @@ Your Name
 - Vercel for seamless deployment
 - Tailwind CSS for utility-first styling
 - Lucide for beautiful icons
-
-## 📞 Support
-
-If you have any questions or issues, please open an issue on GitHub or contact me directly.
 
 ---
